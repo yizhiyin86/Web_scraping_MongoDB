@@ -7,8 +7,7 @@
 <li>Mars Facts: http://space-facts.com/mars/ (use PANDAS to scrape the Mars facts table)</li>
 <li>Mars Hemispheres: https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars (get 4 hemisphere images)</li>
 
-### Then I stored the scraped news into MongoDB and used Flask Application to create a html to render <br />
-### to scrape and render this information</br>
+### Then I stored the scraped news into MongoDB and used Flask Application to create a html to scrape and render this information</br>
 <br />
 <p>Click the scrape button on the website will scrape information from the news source listed above</p>
 <p>but the scraping take some time so please be patient</p>

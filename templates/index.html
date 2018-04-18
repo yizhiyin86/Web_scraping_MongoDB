@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8">
+    <title>Mars</title>
+    <link rel="stylesheet" href="https://bootswatch.com/4/minty/bootstrap.css"> 
+</head>
+
+<body>
+  <div clas="container">
+    <div class="jumbotron text-center">
+      <h1>Scrape News for Mars</h1>
+      <p><a class="btn btn-primary btn-lg" href="/scrape" role="button">Scrape</a></p>
+    </div>
+    <div class="container col-md-12" style="margin:0 auto; margin-top:0rem" >
+        <div class='row'>
+            <!-- {% for dict_item in test.hemi_info %}
+            <div class="card border-light mb-3 col-md-6" style="max-width: 20rem;">
+              <div class="card-header">{{dict_item.title}}</div>
+              <img style="height: 200px; width: 100%; display: block;" src={{dict_item.image_url}} alt="Mars Hemisphere image"/>
+            </div>
+            {% endfor %} -->
+            <div class="jumbotron col-md-12" style="margin:0 auto;margin-top:5rem">
+                <h4>News: {{test.news_data.title}} </h4>
+                <hr class="my-4">
+                <p>{{test.news_data.content}}</p>
+                <p>{{test.news_data.time}}</p>
+              </div>
+          </div>  
+    <!-- surf data -->
+    <div class="row">
+        <div class="jumbotron col-sm-6 col-md-6" style="margin:0 auto;margin-top:5rem">
+            <h3>Featured Image </h3>
+            <hr class="my-4">
+            <img style="height: 400px; width: 100%; display: block;" src= {{ test.featured_image }} alt="Featureed image of Mars"/> 
+            <h3>Mars Current Weather </h3>
+            <hr class="my-4">
+            <p>{{ test.weather }}</p>
+          </div>
+        <div class="jumbotron col-sm-6 col-md-6" style="margin:0 auto;margin-top:5rem">
+            <h3>Mars Facts </h3>
+            <hr class="my-4">
+            <div class="table">
+                {{ test.facts_table | safe}}
+            </div>
+        </div>   
+        <!-- troubleshoot -->
+        <div class="container col-md-12" style="margin:0 auto; margin-top:5rem" >
+            <div class="row">
+                <div class="card border-light mb-3 col-md-6" style="max-width: 25rem;">
+                    <div class="card-header">{{hemi[0].title}}</div>
+                    <hr class="my-4">
+                    <img style="height: 400px; width: 100%; display: block;" src= {{hemi[0].image_url}} alt="hemisphere of mars"/> 
+                  </div> 
+                  <div class="card border-light mb-3 col-md-6" style="max-width: 25rem;">
+                      <div class="card-header">{{hemi[1].title}}</div>
+                      <hr class="my-4">
+                      <img style="height: 400px; width: 100%; display: block;" src= {{hemi[1].image_url}} alt="hemisphere of mars"/> 
+                    </div>  
+                    <div class="card border-light mb-3 col-md-6" style="max-width: 25rem;">
+                        <div class="card-header">{{hemi[2].title}}</div>
+                        <hr class="my-4">
+                        <img style="height: 400px; width: 100%; display: block;" src= {{hemi[2].image_url}} alt="hemisphere of mars"/> 
+                      </div> 
+                      <div class="card border-light mb-3 col-md-6" style="max-width: 25rem;">
+                          <div class="card-header">{{hemi[3].title}}</div>
+                          <hr class="my-4">
+                          <img style="height: 400px; width: 100%; display: block;" src= {{hemi[3].image_url}} alt="hemisphere of mars"/> 
+                        </div> 
+        </div>
+        </div>
+        
+    
+    </div>
+
+</body>
+</html>
+

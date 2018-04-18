@@ -47,29 +47,16 @@
                 {{ test.facts_table | safe}}
             </div>
         </div>   
-        <!-- troubleshoot -->
+        
         <div class="container col-md-12" style="margin:0 auto; margin-top:5rem" >
             <div class="row">
+                {% for item in hemi %}
                 <div class="card border-light mb-3 col-md-6" style="max-width: 25rem;">
-                    <div class="card-header">{{hemi[0].title}}</div>
+                    <div class="card-header">{{item.title}}</div>
                     <hr class="my-4">
-                    <img style="height: 400px; width: 100%; display: block;" src= {{hemi[0].image_url}} alt="hemisphere of mars"/> 
+                    <img style="height: 400px; width: 100%; display: block;" src= {{item.image_url}} alt="hemisphere of mars"/> 
                   </div> 
-                  <div class="card border-light mb-3 col-md-6" style="max-width: 25rem;">
-                      <div class="card-header">{{hemi[1].title}}</div>
-                      <hr class="my-4">
-                      <img style="height: 400px; width: 100%; display: block;" src= {{hemi[1].image_url}} alt="hemisphere of mars"/> 
-                    </div>  
-                    <div class="card border-light mb-3 col-md-6" style="max-width: 25rem;">
-                        <div class="card-header">{{hemi[2].title}}</div>
-                        <hr class="my-4">
-                        <img style="height: 400px; width: 100%; display: block;" src= {{hemi[2].image_url}} alt="hemisphere of mars"/> 
-                      </div> 
-                      <div class="card border-light mb-3 col-md-6" style="max-width: 25rem;">
-                          <div class="card-header">{{hemi[3].title}}</div>
-                          <hr class="my-4">
-                          <img style="height: 400px; width: 100%; display: block;" src= {{hemi[3].image_url}} alt="hemisphere of mars"/> 
-                        </div> 
+                  {% endfor %}
         </div>
         </div>
         

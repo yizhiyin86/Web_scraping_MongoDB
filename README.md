@@ -14,7 +14,7 @@
 <br />
 
 ### Following scripts are found in the repo
-<li>1. scrape_mars.py (script to scrape information)</li>
+<li><a href="https://github.com/yizhiyin86/Web_scraping_MongoDB/blob/master/scrape_mars.py">1. scrape_mars.py (script to scrape information)</a></li>
 <li>2. app.py (Flask app.py to render)</li>
 <li>3. templates/index.html (rendering html)</li>
 <li>4. mission_to_mars.ipynb (jupyter notebook script I used for troubleshooting scrape_mars.py)</li>

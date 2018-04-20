@@ -19,6 +19,10 @@
 <li><a href="https://github.com/yizhiyin86/Web_scraping_MongoDB/tree/master/templates">3. templates/index.html (rendering html)</a></li>
 <li><a href="https://github.com/yizhiyin86/Web_scraping_MongoDB/blob/master/mission_to_mars.ipynb">4. mission_to_mars.ipynb (jupyter notebook script I used for troubleshooting scrape_mars.py)</a></li>
 <li>5. two jpg images to show one scraping of the website</li>
+  <ul>
+  <li><a href="https://github.com/yizhiyin86/Web_scraping_MongoDB/blob/master/Mars_webpage_1.jpg">Page_1</a></li>
+  <li><a href="https://github.com/yizhiyin86/Web_scraping_MongoDB/blob/master/Mars_webpage_2.jpg">Page_2</a></li>
+  </ul>
 
 ### Below is a jpg of the final html 
 ![Mars html](Mars_webpage_1.jpg?raw=true "Mars webpage 1")

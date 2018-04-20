@@ -15,9 +15,9 @@
 
 ### Following scripts are found in the repo
 <li><a href="https://github.com/yizhiyin86/Web_scraping_MongoDB/blob/master/scrape_mars.py">1. scrape_mars.py (script to scrape information)</a></li>
-<li>2. app.py (Flask app.py to render)</li>
-<li>3. templates/index.html (rendering html)</li>
-<li>4. mission_to_mars.ipynb (jupyter notebook script I used for troubleshooting scrape_mars.py)</li>
+<li><a href="https://github.com/yizhiyin86/Web_scraping_MongoDB/blob/master/app.py">2. app.py (Flask app.py to render)</a></li>
+<li><a href="https://github.com/yizhiyin86/Web_scraping_MongoDB/tree/master/templates">3. templates/index.html (rendering html)</a></li>
+<li><a href="https://github.com/yizhiyin86/Web_scraping_MongoDB/blob/master/mission_to_mars.ipynb">4. mission_to_mars.ipynb (jupyter notebook script I used for troubleshooting scrape_mars.py)</a></li>
 <li>5. two jpg images to show one scraping of the website</li>
 
 ### Below is a jpg of the final html 

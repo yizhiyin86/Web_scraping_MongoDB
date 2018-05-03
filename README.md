@@ -1,5 +1,5 @@
 ## Web_scraping_MongoDB
-### Here I used Splinter and BeautifulSoup to scape news information and images from the following sources
+### Here I used Splinter and BeautifulSoup to scrape news information and images from the following sources
 <br />
 <li>Nasa Mars News site : https://mars.nasa.gov/news/ (most recent headline)</li>
 <li>JPL Mars Space Images  : https://www.jpl.nasa.gov/spaceimages/?search=&category=Mars (get the featured image)</li>
@@ -10,7 +10,7 @@
 ### Then I stored the scraped news into MongoDB and used Flask Application to create a html to scrape and render this information</br>
 <br />
 <p>Click the scrape button on the website will scrape information from the news source listed above</p>
-<p>but the scraping take some time so please be patient</p>
+<p>but the scraping take some time so please be patient.</p>
 <br />
 
 ### Following scripts are found in the repo

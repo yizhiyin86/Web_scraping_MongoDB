@@ -75,9 +75,8 @@ def scrape():
     image_src=image.find('img',class_='fancybox-image')['src']
     # print("debug here I am the src of the featured image {}".format(image_src))
 
-    #I exhausted that webpage but really cannot find the large size image of the current image
-    #I can find the next largesize image but not the current one
-    #So I decided to extract the image ID and plugged it in the largesize image link
+  
+    #extract the image ID and plugged it in the largesize image link
 
     image_id=re.findall('/[a-zA-Z0-9]+_',image_src)[0][1:-1]
     fullsize_link='https://www.jpl.nasa.gov/spaceimages/images/largesize/{}_hires.jpg'.format(image_id)
@@ -128,7 +127,7 @@ def scrape():
     each_hemi_url = browser.find_by_css('div[class="description"] a')
     href_list=[i['href'] for i in each_hemi_url ]
 
-    #enter for look to visit all the links to the final full image site
+    #enter for loop to visit all the links to the final full image site
     for i in href_list:
         browser.visit(i)  #visit the full image url
         html=browser.html  #connect
